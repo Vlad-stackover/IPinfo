@@ -2,7 +2,7 @@ import requests
 from pyfiglet import Figlet
 import folium
 
-def get_info_by_ip(ip='127.0.0.1'):
+def get_info_by_ip(ip='195.78.66.4'):
     try:
         response = requests.get(url=f'http://ip-api.com/json/{ip}').json()
         data = {
